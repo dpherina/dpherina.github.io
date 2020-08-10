@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["ReactDOM","render"],"mappings":"+JAAA,yCAGAA,EAASC,OAAO,qD","file":"static/js/main.c271c7fb.chunk.js","sourcesContent":["import React from 'react';\nimport ReactDOM from 'react-dom';\n\nReactDOM.render(<div>Test react Render</div>)"],"sourceRoot":""}
