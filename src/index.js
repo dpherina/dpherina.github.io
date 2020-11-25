@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './assets/main.css';
+import App from './App';
 
-ReactDOM.render(<div>Test react Render</div>)
+ReactDOM.render(<App />, document.getElementById("root"));
