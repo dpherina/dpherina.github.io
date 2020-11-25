@@ -1,13 +1,9 @@
 import React from 'react';
-
-class App extends React.Component {
-    render() {
-        return (
-            <div>
-                Tailwind test
-            </div>
-        )
-    }
+function App() {
+  return (
+    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+          Dylan Herina
+    </div>
+  );
 }
-
 export default App;
