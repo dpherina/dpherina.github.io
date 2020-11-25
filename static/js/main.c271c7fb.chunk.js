@@ -1,2 +1,0 @@
-(this["webpackJsonpdpherina.github.io"]=this["webpackJsonpdpherina.github.io"]||[]).push([[0],[,,,function(e,n,t){e.exports=t(4)},function(e,n,t){"use strict";t.r(n);var i=t(0),r=t.n(i),a=t(2);t.n(a).a.render(r.a.createElement("div",null,"Test react Render"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.c271c7fb.chunk.js.map
