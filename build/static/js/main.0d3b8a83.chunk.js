@@ -1,2 +1,0 @@
-(this["webpackJsonpdpherina.github.io"]=this["webpackJsonpdpherina.github.io"]||[]).push([[0],{3:function(e,n,t){e.exports=t(9)},8:function(e,n,t){},9:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),i=t(2),o=t.n(i);t(8);var l=function(){return r.a.createElement("div",{className:"max-w-sm rounded overflow-hidden shadow-lg"},r.a.createElement("h1",null,"Dylan Herina"),r.a.createElement("div",null,"dpherina@gmail.com"))};o.a.render(r.a.createElement(l,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.0d3b8a83.chunk.js.map
