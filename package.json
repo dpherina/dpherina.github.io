@@ -5,6 +5,7 @@
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run watch:css && react-scripts build",
+    "deploy-nobuild": "gh-pages deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

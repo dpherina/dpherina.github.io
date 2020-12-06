@@ -9,7 +9,7 @@ function App() {
   return (
       <body className="h-screen">
         <div style={{height:'50vh', background:COLOR_PRIMARY, position:'relative'}}>
-            <div style={{bottom: -9, left:10, color:COLOR_TEXT, zIndex:1, position:'absolute'}} className="font-extralight text-left">
+            <div style={{bottom: -8, left:10, color:COLOR_TEXT, zIndex:1, position:'absolute'}} className="font-extralight text-left">
               <div className="text-6xl">
                   Dylan Herina
               </div>
