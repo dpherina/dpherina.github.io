@@ -16,7 +16,7 @@
 }
 
 .card {
-    color: #19414D;
+    color: black;
     align-items: center;
     margin: 0 auto;
     display: flex;
@@ -71,8 +71,8 @@
 }
 
 .border {
-    border: #19414D;
-    border-width: 5px;
+    border: black;
+    border-width: 2px;
     border-style: solid;
     border-radius: 20px;
 }
