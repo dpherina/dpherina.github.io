@@ -34,17 +34,15 @@
 }
 
 .email {
-    color:inherit;
     padding-top: 8px;
-    font-size: 2.5rem;
 }
 
 .urls {
     padding-top: 16px;
-    font-size: 2rem;
 }
 
 .link:link {
+    font-size: 2rem;
     color:inherit;
     text-decoration: none;
     padding: 0 1vmin;
