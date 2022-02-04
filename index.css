@@ -19,7 +19,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    font-family: 'Helvetica';
+    font-family: 'Merriweather-Sans';
 
     background-color: white;
 
@@ -65,15 +65,18 @@
 }
 
 .unselectable {
-    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
-    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
-    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -moz-user-select: none;
     -webkit-user-select: none;
-    -ms-user-select: none; /* From IE10 only */
-    user-select: none; /* Not valid CSS yet, as of July 2012 */
-    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .shadow {
     box-shadow: #44a5c5 -12px 8px 0px
+}
+
+@font-face {
+    font-family: Merriweather-Sans;
+    src: url(assets/Fonts/MerriweatherSans-Regular.ttf);
 }
