@@ -13,10 +13,6 @@
 
 .image {
     margin:100px auto 50px auto;
-    border-radius: 50%;
-    border: #19414D;
-    border-width: 5px;
-    border-style: solid;
 }
 
 .card {
@@ -30,11 +26,6 @@
     background-color: white;
 
     padding: 24px;
-
-    border: #19414D;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 20px;
 }
 
 .name {
@@ -78,6 +69,18 @@
 .shadow {
     box-shadow: #44a5c5 10px 6px 0px
 }
+
+.border {
+    border: #19414D;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.circle-border {
+    border-radius: 50%;
+}
+
 
 @font-face {
     font-family: Merriweather-Sans;
