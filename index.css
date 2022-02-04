@@ -1,5 +1,11 @@
+
+.page{
+    min-width: 100vw;
+    min-height: 100vh;
+    position: absolute;
+}
+
 .body {
-    size:inherit;
     display: flex;
     flex-direction: column;
     background-color:lightblue;
@@ -16,7 +22,7 @@
 .card {
     color: #19414D;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     font-family: 'Merriweather-Sans';
@@ -28,7 +34,7 @@
     border: #19414D;
     border-width: 5px;
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .name {
@@ -50,8 +56,7 @@
 .link:link {
     color:inherit;
     text-decoration: none;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 1vmin;
 }
 
 .link:hover {
@@ -71,7 +76,7 @@
 }
 
 .shadow {
-    box-shadow: #44a5c5 -12px 8px 0px
+    box-shadow: #44a5c5 10px 6px 0px
 }
 
 @font-face {
