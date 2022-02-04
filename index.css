@@ -1,8 +1,12 @@
 
 .page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 100vw;
     min-height: 100vh;
     position: absolute;
+    font-size: min(1rem, 3vw)
 }
 
 .body {
@@ -12,7 +16,10 @@
 }
 
 .image {
-    margin:100px auto 50px auto;
+    margin: auto;
+    margin-bottom: 50px;
+    width: min(65%, 300px);
+    height: auto;
 }
 
 .card {
