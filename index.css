@@ -1,0 +1,74 @@
+.body {
+    size:inherit;
+    display: flex;
+    flex-direction: column;
+    background-color:lightblue;
+}
+
+.image {
+    margin:100px auto 50px auto;
+    border-radius: 50%;
+    border: #19414D;
+    border-width: 5px;
+    border-style: solid;
+
+    filter: drop-shadow(-12px 8px 0px #44A5C5);    
+}
+
+.card {
+    color: #19414D;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica';
+
+    background-color: white;
+
+    padding: 24px;
+
+    border: #19414D;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+
+    filter: drop-shadow(-12px 8px 0px #44A5C5);
+
+
+
+
+}
+
+.name {
+    color:inherit;
+    font-size: 4rem;
+    
+
+}
+
+.email {
+    color:inherit;
+    padding-top: 8px;
+    font-size: 2.5rem;
+}
+
+.urls {
+    color:inherit;
+    padding-top: 16px;
+    font-size: 2rem;
+}
+
+.link:link {
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link:visited {
+    color:inherit;
+}
+
