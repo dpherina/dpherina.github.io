@@ -1,2 +1,2 @@
 # dpherina.github.io
-A personal resume links site
+The source for dylanherina.net, my personal resume site.
